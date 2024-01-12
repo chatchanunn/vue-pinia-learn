@@ -20,7 +20,7 @@ onMounted(() => {
 })
 
 watch([firstname, lastname], (newData) => {
-    if (newData[0] != userStore.firstname || newData[1] != userStore.lastname) {
+    if (newData[0] !== userStore.firstname || newData[1] !== userStore.lastname) {
         isUpdated.value = false;
     }
 })
@@ -52,6 +52,7 @@ const updateProfile = () => {
         <div>
             <div>Firstname : {{ userStore.firstname }}</div>
             <div>Lastname : {{ userStore.lastname }}</div>
+            <div>Fullname : {{ userStore.fullname }}</div>
         </div>
     </div>
     <div>

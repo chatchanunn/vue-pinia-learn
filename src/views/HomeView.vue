@@ -11,6 +11,7 @@
     <div>
         <div>Firstname : {{ userStore.firstname }}</div>
         <div>Lastname : {{ userStore.lastname }}</div>
+        <div>Fullname : {{ userStore.fullname }}</div>
     </div>
 
 
