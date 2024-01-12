@@ -15,6 +15,12 @@ const router = createRouter({
       name: 'profile',
       component: Profile
     }
+    // ,
+    // {
+    //   path: '/profile/:id',
+    //   name: 'profile-edit',
+    //   component: Profile
+    // }
   ]
 })
 
